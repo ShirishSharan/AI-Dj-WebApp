@@ -11,8 +11,8 @@ song= loadSound("music.mp3");
 }
 
 function setup(){
-    canvas= createCanvas(600,500);
-    canvas.center();
+    canvas= createCanvas(500,500);
+    canvas.position(430,150);
     
     video = createCapture(VIDEO);
     video.hide();
@@ -45,7 +45,7 @@ console.log('PoseNet is Intialized !');
 
 
 function draw(){
-    image(video, 0,0,600,500);
+    image(video, 0,0,600,600);
     fill('red');
     stroke('yellow');
 
