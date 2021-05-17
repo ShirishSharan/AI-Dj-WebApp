@@ -1,0 +1,83 @@
+.heading{
+    font-size: 32px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: oblique;
+    border:ridge yellow;
+    box-shadow: 5px 5px 5px yellow;
+    border-radius: 10px;
+    
+}
+
+.note{
+    font-size: 15px;
+    font-family: fantasy;
+    font-weight: inherit;
+    font-style: italic;
+    text-decoration: black;
+
+}
+
+.div_speed{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: normal;
+    font-style: italic;
+    border: double yellow;
+    box-shadow: navy;
+    border-radius: 5px;
+    float: left;
+    background: rgb(0, 13, 85);
+}
+
+.div_volume{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: normal;
+    font-style: italic;
+    border: double yellow;
+    box-shadow: navy;
+    border-radius: 5px;
+    float: right;
+    background: rgb(0, 13, 85);
+}
+
+.div_volume_img, .div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed , #volume{
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+
+
+body{
+    background-size:unset;
+}
+
+
+.play_button{
+    border: groove lightblue;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px lightblue;
+}
+
+canvas{
+    border-style: ridge ;
+    animation-name: canvas1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+@keyframes canvas1{
+    from{box-shadow: 10px 10px 10px yellow;}
+    to{box-shadow: 10px 10px 10px red}
+}
+
